@@ -1,0 +1,83 @@
+.signOutCart{
+    border: 1px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+    height: 100vh;
+    width: 500px;
+    z-index: 2;
+    top: 0px;
+    right: 1000px;
+    background-color: white;
+    transition: all linear .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signOutCartDiv1{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signOutCartDiv1 p{
+    font-weight: bolder;
+}
+.signOutCartDiv1 i{
+    font-size: 15px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.signOutCartDiv2{
+    /* border: 2px solid blue; */
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.signOutCartDiv2 p{
+    font-weight: bolder;
+}
+.signOutCartDiv2 p+p{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signOutCartDiv2 div{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.signOutCartDiv2 a{
+    font-weight: 300;
+    font-size: 17px;
+    text-decoration: underline;
+}
+.signOutCartDiv2 div p{
+    font-weight: 300;
+    font-size: 17px;
+}
+.signOutCartDiv2 div i{
+    font-size: 30px;
+    color: rgb(116, 28, 157);
+}
+@media all and (max-width:804px){
+    .signOutCart{
+       display: none;
+    }
+}

@@ -1,0 +1,1053 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';font-size: 22px;
+}
+.headerDiv1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: rgb(116, 28, 157);
+}
+.subHeaderDiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.subHeaderDiv1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.subHeaderDiv1 i{
+    font-size: 20px;
+    color: white;
+}
+.subHeaderDiv2{
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.subHeaderDiv2 a:hover,.subHeaderDiv2 p:hover{
+    text-decoration: underline;
+    color: white;
+}
+.subHeaderDiv1 a, .subHeaderDiv2 a, .subHeaderDiv2 p{
+    color: white;
+    font-size: 13px;
+}
+nav{
+    border: 1px solid lightgrey;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 110px;
+    background-color: white;
+}
+#bars{
+    display: none;
+}
+.navsigncont{
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 30px;
+}
+
+.Logo{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 30px;
+
+}
+.navsigncont div a{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;padding-bottom: 5px;
+}
+.userlogo i:hover,.navsigncont div a p:hover,.cart i:hover{
+    color: rgb(123, 31, 166);
+}
+.userlogo i{
+    font-size: 17px;
+    color: black;
+}
+.accountDropDown{
+    width:290px;
+    position: absolute;
+    top: 85px;
+    right: 100px;
+    height: auto;
+    padding: 20px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.accountDropDown .accountDropDownDiv1{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.accountDropDownDiv1 a button{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 95px;
+    padding-right: 95px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(116, 28, 157);
+    color: white;
+}
+.accountDropDownDiv1 a + a{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.accountDropDownDiv2{
+    /* border: 2px solid blue; */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+
+}
+.accountDropDownDiv2 i,.accountDropDownDiv2 p{
+    font-size: 16px;
+    color: black;
+}
+.navsigncont div a p{
+    color: black;
+    font-size: 17px;
+}
+
+.cart i{
+    font-size: 27px;
+    color: black;
+}
+#cart2{
+    display: none;
+}
+.headerDiv2Cont{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerDiv2{
+    /* border: 2px solid red; */
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    height: auto;
+    
+}
+.headerDiv2 a{
+    padding: 6px;
+    height: 100%;
+    color: black;
+    font-size: 14px;
+}
+.headerDiv2 a:hover{
+    text-decoration:underline;
+    color: rgb(123, 31, 166);
+
+} 
+
+.dropdown{
+    display: none;
+    border: 2px solid red;
+    width: 100%;
+    height: 570px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top: 136px;
+    transition: all linear .5s;
+    
+}
+
+
+.middle{
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+.image{
+    border: 1px solid lightgray;
+}
+.imageDiv1{
+    width: 100%;
+    height: 320px;
+    padding-top: 7px;
+}
+.imageDiv1 img{
+    width: 100%;
+    height: 100%;
+}
+.imageDiv2{
+    /* border: 2px solid blue; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.imageDiv2 p{
+    font-size: 15px;
+}
+.imageDiv2 input{
+    padding-right: 300px;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.imageDiv2 button{
+    margin-left: -64px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgb(116, 28, 157);
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.footerDiv2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 70px;
+    border-bottom: 1px solid lightgray;
+
+}
+.cont{
+    /* border:  2px solid blue; */
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: -180px;
+}
+.about a{
+    color: black;
+    font-size: 15px;
+}
+.customerService{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: -260px;
+}
+.customerService a{
+    color: black;
+    font-size: 15px;
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.contactUs h2{
+    font-size: 20px;
+}
+.quickHelp{
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(116, 28, 157);
+    color: white;
+    border: none;
+}
+.quickHelp p{
+    font-size: 15px;
+}
+.callUs{
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    color: rgb(116, 28, 157);
+    background-color: white;
+    border: 1px solid rgb(116, 28, 157);
+}
+.callUs p{
+    font-size: 15px;
+}
+.contactUs button i{
+    font-size: 20px;
+}
+.CustomerService{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.CustomerService h3{
+    padding-bottom: 15px;
+    font-size: 18px;
+
+}
+.CustomerService h4{
+    font-size: 14px;
+}
+.shoppingAssistance{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.shoppingAssistance h3{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.shoppingAssistance h4{
+    font-size: 14px;
+}
+.footerDiv3cont{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* border: 2px solid blue; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.brands{
+    display: flex;
+    gap: 20px;
+}
+.brands a{
+    color: black;
+}
+.socialIcon{
+    display: flex;
+    gap: 20px;
+    font-size: 21px;
+}
+.socialIcon a i{
+    color: rgb(116, 28, 157)
+}
+.terms{
+    display: flex;
+    gap: 20px;
+}
+.terms a {
+    color: black;
+    font-size: 14px;
+}
+.copyright{
+    font-size: 11px;
+}
+.offerTagCont{
+    /* border: 2px solid blue; */
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.offerTagCard{
+    
+    padding: 8px;
+   
+
+}
+.offerTagCard img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.offerTagCard:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.Images{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.Images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Images:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.bedRoomBasic{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.bedRoomBasic .heading{
+    font-size: 30px;
+   
+}
+.basicCardCont{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.basicCard{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    row-gap: 15px;
+}
+.basicTitle{
+    font-size: 23px;
+    color: black;
+}
+.basicCard:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+.basicImg{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    
+}
+.basicImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.basicCard div+p+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.basicCard div+p+div p{
+    font-size: 14px;
+    color: black;
+}
+.basicCard div+p+div i{
+    font-size: 15px;
+    color: black;
+}
+.ReFine{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.reFineCont{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.reFineCard{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    row-gap: 15px;
+}
+.reFineTitle{
+    font-size: 23px;
+    color: black;
+}
+.reFineCard:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+.reFineImg{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    
+}
+.reFineImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.reFineCard div+p+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.reFineCard div+p+div p{
+    font-size: 14px;
+    color: black;
+}
+.reFineCard div+p+div i{
+    font-size: 15px;
+    color: black;
+}
+.Appliance{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.Appliance .heading{
+    font-size: 30px;
+   
+}
+.applianceCardCont{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.applianceCard{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    row-gap: 15px;
+}
+.applianceTitle{
+    font-size: 23px;
+    color: black;
+}
+.applianceCard:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+.applianceImg{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    
+}
+.applianceImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Bissell{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.Bissell .heading{
+    font-size: 30px;
+   
+}
+.bissellCardCont{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.bissellCard{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    row-gap: 15px;
+}
+
+.bissellCard:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+.bissellImg{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    
+}
+.bissellImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.bissellCard div+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.bissellDis{
+    font-size: 14px;
+    color: black;
+}
+.bissellCard div+div i{
+    font-size: 15px;
+    color: black;
+}
+.LivingRoom{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.LivingRoom .heading{
+    font-size: 30px;
+   
+}
+.livingCardCont{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.livingCard{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    row-gap: 15px;
+}
+
+.livingCard:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+.livingImg{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    
+}
+.livingImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.livingTitle{
+    font-size: 23px;
+    color: black;
+}
+.ShopByDepartment{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.ShopByDepartment .heading{
+    font-size: 30px;
+   
+}
+.shopByDepartmentCardCont{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.shopByDepartmentCard{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    row-gap: 15px;
+}
+
+.shopByDepartmentCard:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+.shopByDepartmentImg{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    
+}
+.shopByDepartmentImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.shopByDepartmentTitle{
+    font-size: 14px;
+    color: black;
+}
+.ShippingAndService{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.ShippingAndService .heading{
+    font-size: 30px;
+   
+}
+.shippingAndServiceCardCont{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.shippingAndServiceCard{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    row-gap: 15px;
+}
+
+.shippingAndServiceImg{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    
+}
+.shippingAndServiceImg img{
+    width: 35%;
+    height: 100%;
+    border-radius: 10px;
+}
+.shippingAndServiceTitle{
+    font-size: 18px;
+    color: black;
+}
+@media all and (max-width:1276px){
+    .headerDiv2 a{
+        font-size: 12px;
+    }
+    .dropdown{
+        top: 130px;
+    }
+}
+@media all and (max-width:1114px){
+    .headerDiv2{
+        flex-wrap: wrap;
+    }
+    .dropdown{
+        top: 162px;
+    }
+    .imageDiv2{
+        flex-direction: column;
+        padding-left: 0;
+        gap: 20px;
+
+    }
+}
+@media all and (max-width:970px){
+    .headerDiv1{
+        padding: 0px 20px;
+    }
+    .footerDiv2{
+        padding-left: 0
+    }
+    .cont{
+        width: 95%;
+        margin: auto;
+    }
+}
+@media all and (max-width:804px){
+    .subHeaderDiv2{
+        display: none;
+    }
+    .headerDiv1{
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .headerDiv2{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+    .userlogo i{
+        font-size: 14px;
+    }
+    nav{
+        padding: 5px 15px;
+        justify-content: space-between;
+    }
+    .navsigncont a p{
+        font-size: 10px;
+    }
+    .navsigncont{
+        gap: 5px;
+    }
+    #cart1{
+        display: none;
+    }
+    #cart2{
+        display: block;
+    }
+    #bars{
+        display: block;
+    }
+    .accountDropDown{
+        right: 10px;
+        width: 200px;
+    }
+    .accountDropDownDiv1 a button{
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media all and (max-width:839px){
+    .dropdown{
+        top: 162px;
+    }
+}
+@media all and (max-width:639px){
+    .Images{
+        width: 95%;
+        height: 250px;
+    }
+    .offerTagCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .basicCardCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .shippingAndServiceCardCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .reFineCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .applianceCardCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .bissellCardCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .livingCardCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .imageDiv1 {
+        width: 100%;
+        height: 250px;
+    }
+    .footerDiv2{
+        padding-left: 0
+    }
+    .cont{
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about{
+        margin-top: 0;
+    }
+    .customerService{
+        margin-top: 0;
+    }
+    .brands{
+        flex-direction: column;
+    }
+    
+}
+@media all and (max-width:494px){
+    .imageDiv2 input{
+        padding-right: 200px;;
+    }
+    .Images{
+        width: 95%;
+        height: 250px;
+    }
+    .offerTagCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .basicCardCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .shippingAndServiceCardCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .reFineCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .applianceCardCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bissellCardCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .livingCardCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media all and (max-width:389px){
+    .imageDiv2 input{
+        padding-right: 120px;;
+    }
+}
+@media all and (max-width:324px){
+    .imageDiv2 input{
+        padding-right: 80px;
+    }
+}
+@media all and (max-width:372px){
+    .logo{
+        font-size: 30px;
+        /* border: 2px solid red; */
+    }
+}

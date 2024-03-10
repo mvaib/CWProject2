@@ -1,0 +1,52 @@
+.SideBar{
+    /* border: 2px solid red; */
+    width: 70%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all linear .5s;
+    background-color: white;
+}
+.Div1{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Div1 i{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.logo{
+    border: 2px solid blue;
+    width: 200px;
+}
+.Div2{
+    padding: 20px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Div2 Div{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+.Div3{
+    padding: 20px;
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}
+@media all and (max-width:679px){
+    .SideBar{
+        width: 100%;
+    }
+}
+

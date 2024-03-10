@@ -1,0 +1,73 @@
+.CartItem{
+    /* border: 2px solid blue; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.CartItemCard{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(1,400px);
+
+}
+.CartItemCont{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+.CartItemImg{
+    height: 200px;
+    width: 300px;
+}
+.CartItemImg img{
+    height: 100%;
+    width: 100%;
+}
+.CartItemTitle{
+    font-size: 17px;
+}
+.CartItemPrice{
+    font-size: 17px;
+}
+.CartItemCont button{
+    border: none;
+    font-size: 15px;
+    background-color: rgb(116, 28, 157);
+    color: white;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.CartItemCont:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+@media all and (max-width:448px){
+    .CartItemCard{
+        grid-template-columns: repeat(1,300px);
+    }
+    .CartItemImg{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media all and (max-width:325px){
+    .CartItemCard{
+        grid-template-columns: repeat(1,200px);
+    }
+    .CartItemImg{
+        height: 100px;
+        width: 150px;
+    }
+}

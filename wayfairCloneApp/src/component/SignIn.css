@@ -1,0 +1,160 @@
+.signIn{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.logoCont{
+    /* border: 2px solid blue; */
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.secureLoginText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.secureLoginText p ,.secureLoginText i{
+    font-size: 15px;
+}
+.signInDiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 20px;
+}
+.form{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.signInDiv p{
+    /* border: 2px solid blue; */
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.signInDiv input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    padding-right: 40px;
+    font-size: 17px;
+    padding-left: 20px;
+}
+.signInDiv button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 350px;
+    padding-right: 40px;
+    font-size: 17px;
+    padding-left: 20px;
+    background-color: rgb(116, 28, 157);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(232, 232, 232);
+}
+.footerDivCont{
+    /* border: 2px solid blue; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.copy{
+    font-size: 14px;
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.privacy p{
+    font-size: 14px;
+}
+.backbtn{
+    /* border: 2px solid red;s */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: black; */
+}
+@media all and (max-width: 768px) and (min-width: 426px) {
+    .signIn{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footerDivCont{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .copy{
+        font-size: 12px;
+    }
+    .privacy p{
+        font-size: 12px;
+    }
+    .privacy{
+        gap: 5px;
+    }
+}
+@media all and (max-width:425px){
+    .signIn{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .signInDiv input{
+        width: 100%;
+    }
+    .signInDiv button{
+        width: 100%;
+    }
+    .footerDivCont{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .copy{
+        font-size: 10px;
+    }
+    .privacy p{
+        font-size: 10px;
+    }
+    .privacy{
+        gap: 5px;
+    }
+}

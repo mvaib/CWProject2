@@ -1,0 +1,571 @@
+{
+  "authentication": [
+    {
+      "id": "fa34",
+      "username": "vaibhav",
+      "email": "vaibhav123@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345"
+    }
+  ],
+  "offerTagCard": [
+    {
+      "img": "https://assets.wfcdn.com/im/31268500/scale-h1280-w858%5Ecompr-r85/2725/272537676/default_name.jpg",
+      "id": "c1e2"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/11404472/scale-h1280-w858%5Ecompr-r85/2711/271173185/default_name.jpg",
+      "id": "029e"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/92599078/scale-h1280-w858%5Ecompr-r85/2711/271173198/default_name.jpg",
+      "id": "30c4"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/70038339/scale-h1280-w858%5Ecompr-r85/2711/271173108/default_name.jpg",
+      "id": "0973"
+    }
+  ],
+  "video": [
+    {
+      "video": "https://secure.img1-fg.wfcdn.com/dm/video/0a6a3966-54b3-4655-ba56-0dd97982dbd6/usca_springsavings_fullbleeddesktop.mp4",
+      "id": "2cf7"
+    }
+  ],
+  "image": [
+    {
+      "img": "https://assets.wfcdn.com/im/1134629/resize-h655-w2880%5Ecompr-r85/2657/265799772/your_calming_bedroom_basics._discover_more._265799772.jpg",
+      "id": "1"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/24173218/resize-h655-w2880%5Ecompr-r85/2707/270704917/meet_re%2Ffine_only_at_wayfair._reimagine_your_day_%28and_night%29_with_bedding%2C_bath%2C_tabletop%2C_and_more._shop_now.__270704917.jpg",
+      "id": "2"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/10017864/resize-h655-w2880%5Ecompr-r85/2709/270988090/appliances_for_every_style_%26_budget._shop_now._270988090.jpg",
+      "id": "3"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/57033177/resize-h655-w2880%5Ecompr-r85/2715/271539603/bissell._little_green_cordless_cleaner._instantly_remove_tough_stains_and_spots._shop_now.__271539603.jpg",
+      "id": "4"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/77933509/resize-h655-w2880%5Ecompr-r85/2654/265428269/because_comfort_is_key._living_room_looks_for_less._shop_now.__265428269.jpg",
+      "id": "5"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/41404284/resize-h655-w2880%5Ecompr-r85/2690/269062062/celebrate_black_makers._discover_inspiring_products_from_our_growing_community_of_black_designers_and_brands._269062062.jpg",
+      "id": "6"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/85367779/resize-h655-w2880%5Ecompr-r85/2653/265313772/financing_available._find_the_payment_option_that%27s_right_for_you._learn_more.__265313772.jpg",
+      "id": "7"
+    }
+  ],
+  "BedRoomBasic": [
+    {
+      "img": "https://assets.wfcdn.com/im/14197199/scale-h858-w858%5Ecompr-r85/2688/268888055/default_name.jpg",
+      "title": "Beds",
+      "discription": "First, the foundation. Comfort is key",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/bed",
+      "id": "cc7a"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/27585144/scale-h858-w858%5Ecompr-r85/2688/268887415/default_name.jpg",
+      "title": "Rugs",
+      "discription": "Natural materials = a peaceful sapce",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/rugs",
+      "id": "8c9e"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/07904437/scale-h858-w858%5Ecompr-r85/2655/265569108/default_name.jpg",
+      "title": "Dressers",
+      "discription": "The foundation for a well-organized sapce",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/dressers",
+      "id": "5b7f"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/53085893/scale-h858-w858%5Ecompr-r85/2688/268887836/default_name.jpg",
+      "title": "Nighghtstands",
+      "discription": "Bring in storage for bedside essentials",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/nightstands",
+      "id": "a190"
+    }
+  ],
+  "ReFine": [
+    {
+      "img": "https://assets.wfcdn.com/im/07296725/scale-h858-w858%5Ecompr-r85/2635/263571233/default_name.jpg",
+      "title": "Bedding",
+      "discription": "Level up your wind-down",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/bedding",
+      "id": "33bf"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/52866793/scale-h858-w858%5Ecompr-r85/2676/267688557/default_name.jpg",
+      "title": "Tabletop",
+      "discription": "Effortless everyday luxuries",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/tabletop",
+      "id": "5ca3"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/78968831/scale-h858-w858%5Ecompr-r85/2656/265696927/default_name.jpg",
+      "title": "Bath",
+      "discription": "Ultra-plush from day one",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/bath",
+      "id": "aeb3"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/04044214/scale-h858-w858%5Ecompr-r85/2676/267688567/default_name.jpg",
+      "title": "Mirrors",
+      "discription": "Beautify the basic",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/mirrors",
+      "id": "9dfe"
+    }
+  ],
+  "Appliance": [
+    {
+      "img": "https://assets.wfcdn.com/im/34716974/scale-h858-w858%5Ecompr-r85/2703/270356763/default_name.jpg",
+      "title": "Drip,Pod & More Coffee Makers",
+      "link": "/coffeemakers",
+      "id": "b69f"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/46067887/scale-h858-w858%5Ecompr-r85/2703/270356764/default_name.jpg",
+      "title": "Work-Hard Stand Mixers",
+      "link": "/mixers",
+      "id": "0a8d"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/57418800/scale-h858-w858%5Ecompr-r85/2703/270356765/default_name.jpg",
+      "title": "Small Electrics That Deliver",
+      "link": "/small-electrics",
+      "id": "ceac"
+    },
+    {
+      "img ": "https://assets.wfcdn.com/im/92144844/scale-h858-w858%5Ecompr-r85/2703/270356769/default_name.jpg",
+      "title": "Stick,Robot & More Vacuums",
+      "link": "/vacuums",
+      "id": "4be0"
+    }
+  ],
+  "Bissell": [
+    {
+      "img": "https://assets.wfcdn.com/im/27062268/scale-h948-w680%5Ecompr-r85/2720/272077753/default_name.jpg",
+      "discription": "Tactile finishes & multicolor touches",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/creative-play",
+      "id": "e443"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/15867797/scale-h948-w680%5Ecompr-r85/2720/272077749/default_name.jpg",
+      "discription": " Amorphous shapes & ethereal accents",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/futuristic-forms",
+      "id": "1311"
+    },
+    {
+      "img ": "https://assets.wfcdn.com/im/27218710/scale-h948-w680%5Ecompr-r85/2720/272077748/default_name.jpg",
+      "discription": " Quirky nature motifs & a lush palette",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/extravagant-escape",
+      "id": "ad16"
+    },
+    {
+      "img ": "https://assets.wfcdn.com/im/49764094/scale-h948-w680%5Ecompr-r85/2720/272077751/default_name.jpg",
+      "discription": "Eco-friendly appliances & a sleek aesthetic",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/efficient-design",
+      "id": "7851"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/15711355/scale-h948-w680%5Ecompr-r85/2720/272077754/default_name.jpg",
+      "discription": "Tonal pieces & artful pattern play ",
+      "Itag": "fa-solid fa-arrow-right-long",
+      "link": "/monochromatic-layer",
+      "id": "71a7"
+    }
+  ],
+  "LivingRoom": [
+    {
+      "img": "https://assets.wfcdn.com/im/69502355/scale-h858-w858%5Ecompr-r85/2654/265428218/default_name.jpg",
+      "title": "Sofas & Sectionals From $400",
+      "link": "/sofas",
+      "id": "ee76"
+    },
+    {
+      "img ": "https://assets.wfcdn.com/im/99169588/scale-h858-w858%5Ecompr-r85/2698/269828871/default_name.jpg",
+      "title": "Accent Chairs From $125",
+      "link": "/chairs",
+      "id": "001c"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/67982035/scale-h858-w858%5Ecompr-r85/2611/261126844/default_name.jpg",
+      "title": "End Tables From $30",
+      "link": "/tables",
+      "id": "4fec"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/87252210/scale-h858-w858%5Ecompr-r85/2654/265428213/default_name.jpg",
+      "title": "5' x 8' Area Rugs Under $150",
+      "link": "/area-rugs",
+      "id": "b809"
+    }
+  ],
+  "ExclusiveBrand": [
+    {
+      "img": "https://assets.wfcdn.com/im/33528211/scale-h858-w858%5Ecompr-r85/2706/270695832/default_name.jpg",
+      "discription": "French-country looks designed for real life.",
+      "link": "/kelly-clarkson",
+      "id": "e7a0"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/00680970/scale-h858-w858%5Ecompr-r85/2706/270695824/default_name.jpg",
+      "discription": "Modern designs with an urban edge.",
+      "link": "/mercury-row",
+      "id": "92fa"
+    },
+    {
+      "img ": "https://assets.wfcdn.com/im/66628231/scale-h858-w858%5Ecompr-r85/2706/270695827/default_name.jpg",
+      "discription": "Traditional styles with unexpected details.",
+      "link": "/three-posts",
+      "id": "f397"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/43926405/scale-h858-w858%5Ecompr-r85/2706/270695829/default_name.jpg",
+      "discription": "Where farmhouse charm meets seaside style.",
+      "link": "sand-stable",
+      "id": "c17f"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/22177298/scale-h858-w858%5Ecompr-r85/2706/270695831/default_name.jpg",
+      "discription": "Glamorous designs with alluring edge.",
+      "link": "/etta-avenue",
+      "id": "0e22"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/77979144/scale-h858-w858%5Ecompr-r85/2706/270695826/default_name.jpg",
+      "discription": "Affordable essentials that simplify the everyday.",
+      "link": "/wayfair-basic",
+      "id": "0346"
+    }
+  ],
+  "ShopByDepartment": [
+    {
+      "img": "https://assets.wfcdn.com/im/54165311/timg-h482-w482%5Ecompr-r85/2718/271821073/default_name.jpg",
+      "title": "Spring Savings",
+      "link": "/spring-savings",
+      "id": "5ed8"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/72474007/timg-h482-w482%5Ecompr-r85/9847/98477101/default_name.jpg",
+      "title": "Furniture",
+      "link": "/furniture",
+      "id": "d537"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/31073905/timg-h482-w482%5Ecompr-r85/9847/98477118/default_name.jpg",
+      "title": "Outdoor",
+      "link": "/outdoor",
+      "id": "119f"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/18845349/timg-h482-w482%5Ecompr-r85/1323/132350539/default_name.jpg",
+      "title": "Bedding & Bath",
+      "link": "/bedding-bath",
+      "id": "6d24"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/60495043/timg-h482-w482%5Ecompr-r85/9847/98477095/default_name.jpg",
+      "title": "Decor & Pillows",
+      "link": "/decor-pillows",
+      "id": "871f"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/53619289/timg-h482-w482%5Ecompr-r85/9847/98477121/default_name.jpg",
+      "title": "Rugs",
+      "link": "/department-rugs",
+      "id": "450f"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/65126644/timg-h482-w482%5Ecompr-r85/9847/98477115/default_name.jpg",
+      "title": "Lighting",
+      "link": "/department-lighting",
+      "id": "e5c9"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/06982384/timg-h482-w482%5Ecompr-r85/9847/98477108/default_name.jpg",
+      "title": "Home Improvement",
+      "link": "/department-homeImprovement",
+      "id": "aab6"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/30468703/timg-h482-w482%5Ecompr-r85/9847/98477082/default_name.jpg",
+      "title": "Appliance",
+      "link": "/department-appliance",
+      "id": "6b48"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/95623378/timg-h482-w482%5Ecompr-r85/2692/269209725/default_name.jpg",
+      "title": "Kitchen",
+      "link": "/department-kitchen",
+      "id": "85b2"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/07766877/timg-h482-w482%5Ecompr-r85/9847/98477084/default_name.jpg",
+      "title": "Baby & Kids",
+      "link": "/departmentBabyKids",
+      "id": "7ca5"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/80433450/timg-h482-w482%5Ecompr-r85/9847/98477124/default_name.jpg",
+      "title": "Oraganization",
+      "link": "/department-organization",
+      "id": "7269"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/41449204/timg-h482-w482%5Ecompr-r85/2320/232096871/default_name.jpg",
+      "title": "Custom Cabinetry",
+      "link": "/department-customCabinetry",
+      "id": "8c16"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/61546677/timg-h482-w482%5Ecompr-r85/1321/132124505/default_name.jpg",
+      "title": "Pet",
+      "link": "/department-pet",
+      "id": "ab84"
+    }
+  ],
+  "ShippingAndServices": [
+    {
+      "img": "https://assets.wfcdn.com/im/17031803/resize-h128-w128%5Ecompr-r85/1711/171106361/default_name.jpg",
+      "title": "Unbeatable Selection",
+      "id": "1d7a"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/51084542/resize-h128-w128%5Ecompr-r85/1711/171106364/default_name.jpg",
+      "title": "Expert Customer Service",
+      "id": "d5a1"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/87128189/resize-h128-w128%5Ecompr-r85/1711/171106369/default_name.jpg",
+      "title": "Fast & Free Shipping Over $35*",
+      "id": "8c5e"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/21024486/resize-h128-w128%5Ecompr-r85/1711/171106371/default_name.jpg",
+      "title": "Amazing Value Every Day",
+      "id": "2b60"
+    }
+  ],
+  "Cart": [
+    {
+      "img": "https://assets.wfcdn.com/im/67032681/resize-h430-w624%5Ecompr-r85/2687/268776900/default_name.jpg",
+      "title": "Coastal Living Room Furniture"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/49799130/resize-h430-w624%5Ecompr-r85/1494/149423124/default_name.jpg",
+      "title": "Our Favorite Traditional Furniture"
+    },
+    {
+      "img": "https://assets.wfcdn.com/im/99055661/resize-h430-w624%5Ecompr-r85/1368/136883857/default_name.jpg",
+      "title": "Modern Office Furniture"
+    }
+  ],
+  "Saving": {
+    "SavingImage": [
+      {
+        "img": "https://assets.wfcdn.com/im/55677438/scale-h200-w1600%5Ecompr-r85/2723/272374829/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/15578395/scale-h238-w2400%5Ecompr-r85/2715/271519590/Flash+Deals.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/23324306/scale-h655-w2880%5Ecompr-r85/2517/251720246/default_name.png"
+      }
+    ],
+    "ShopFurniture": [
+      {
+        "img": "https://assets.wfcdn.com/im/14111339/c_crop-h360-w570%5Ecompr-r85/2711/271112496/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/68102485/c_crop-h360-w570%5Ecompr-r85/2711/271112528/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/00002993/c_crop-h360-w570%5Ecompr-r85/2711/271112522/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/89447693/c_crop-h360-w570%5Ecompr-r85/2711/271112614/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/88808522/c_crop-h360-w570%5Ecompr-r85/2711/271112518/default_name.png"
+      }
+    ],
+    "ShopOutdoor": [
+      {
+        "img": "https://assets.wfcdn.com/im/69953804/c_crop-h360-w570%5Ecompr-r85/2711/271112538/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/58602891/c_crop-h360-w570%5Ecompr-r85/2711/271112539/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/12149519/c_crop-h360-w570%5Ecompr-r85/2711/271112612/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/01516053/c_crop-h360-w570%5Ecompr-r85/2711/271112627/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/03850101/c_crop-h360-w570%5Ecompr-r85/2711/271112540/default_name.png"
+      }
+    ],
+    "ShopDecor": [
+      {
+        "img": "https://assets.wfcdn.com/im/68707687/c_crop-h360-w570%5Ecompr-r85/2711/271112492/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/02760426/c_crop-h360-w570%5Ecompr-r85/2711/271112495/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/46005861/c_crop-h360-w570%5Ecompr-r85/2711/271112490/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/59959509/c_crop-h360-w570%5Ecompr-r85/2711/271112605/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/33410575/c_crop-h360-w570%5Ecompr-r85/2711/271112621/default_name.png"
+      }
+    ],
+    "ShopHomeUpgrade": [
+      {
+        "img": "https://assets.wfcdn.com/im/48608596/c_crop-h360-w570%5Ecompr-r85/2711/271112604/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/44044041/c_crop-h360-w570%5Ecompr-r85/2711/271112618/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/23500432/c_crop-h360-w570%5Ecompr-r85/2711/271112611/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/66745867/c_crop-h360-w570%5Ecompr-r85/2711/271112616/default_name.png"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/45557101/c_crop-h360-w570%5Ecompr-r85/2711/271112531/default_name.png"
+      }
+    ],
+    "PickJustForYou": [
+      {
+        "img": "https://assets.wfcdn.com/im/18137218/resize-h444-w444%5Ecompr-r85/2718/271814327/default_name.jpg",
+        "title": "Shiflett Orintal Burgandy by Andover Mills",
+        "price": "$30.99"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/43388115/resize-h444-w444%5Ecompr-r85/1893/189330398/default_name.jpg",
+        "title": "MOuntainview Oriantal Rug by Andover Mills",
+        "price": "$25.80"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/37310188/resize-h444-w444%5Ecompr-r85/1171/117155225/default_name.jpg",
+        "title": "Hector Performant Rug by Kelly Clarkson",
+        "price": "$29.99"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/78452437/resize-h444-w444%5Ecompr-r85/2631/263147106/default_name.jpg",
+        "title": "Gossard Floard Rug by Kelly Clarkson",
+        "price": "$45.50"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/72038045/resize-h444-w444%5Ecompr-r85/1795/179588183/default_name.jpg",
+        "title": "Buck Hill Wool Oriantal Rugs by Lark Manor",
+        "price": "$25.99"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/90246867/resize-h444-w444%5Ecompr-r85/2313/231343655/default_name.jpg",
+        "title": "Canety Oriental Rug by Stand & stable",
+        "price": "$45.89"
+      }
+    ],
+    "ScoreUnder50": [
+      {
+        "img": "https://assets.wfcdn.com/im/52251875/resize-h444-w444%5Ecompr-r85/1336/133645341/default_name.jpg",
+        "title": "Shiflett Orintal Burgandy by Andover Mills",
+        "price": "$30.99"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/10494486/resize-h444-w444%5Ecompr-r85/2317/231700129/default_name.jpg",
+        "title": "MOuntainview Oriantal Rug by Andover Mills",
+        "price": "$25.80"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/33248380/resize-h444-w444%5Ecompr-r85/1223/122310381/default_name.jpg",
+        "title": "Hector Performant Rug by Kelly Clarkson",
+        "price": "$29.99"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/78452437/resize-h444-w444%5Ecompr-r85/2631/263147106/default_name.jpg",
+        "title": "Gossard Floard Rug by Kelly Clarkson",
+        "price": "$45.50"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/81213166/resize-h444-w444%5Ecompr-r85/2712/27129620/default_name.jpg",
+        "title": "Buck Hill Wool Oriantal Rugs by Lark Manor",
+        "price": "$25.99"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/24538064/resize-h444-w444%5Ecompr-r85/2160/216022396/default_name.jpg",
+        "title": "Canety Oriental Rug by Stand & stable",
+        "price": "$45.89"
+      }
+    ],
+    "ScoreAt50": [
+      {
+        "img": "https://assets.wfcdn.com/im/75306556/resize-h444-w444%5Ecompr-r85/6827/68276659/default_name.jpg",
+        "title": "Bottinea 4",
+        "price": "$299"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/38891476/resize-h444-w444%5Ecompr-r85/2254/225451864/default_name.jpg",
+        "title": "Carlyssa-4",
+        "price": "$199"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/27588946/resize-h444-w444%5Ecompr-r85/1560/156007938/default_name.jpg",
+        "title": "Chuun-2",
+        "price": "$229"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/54091954/resize-h444-w444%5Ecompr-r85/1579/157993339/default_name.jpg",
+        "title": "4-person Outdoor Seating",
+        "price": "$219"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/78071889/resize-h444-w444%5Ecompr-r85/2376/237625328/default_name.jpg",
+        "title": "Arocho 7",
+        "price": "$569"
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/17251175/resize-h444-w444%5Ecompr-r85/1598/159898253/default_name.jpg",
+        "title": "4 person Outdoor Seating",
+        "price": "$219.98"
+      }
+    ],
+    "ShopSale": [
+      {
+        "img": "https://assets.wfcdn.com/im/61824560/resize-h396-w792%5Ecompr-r85/1334/133439918/Closeout.jpg",
+        "title": "CloseOut",
+        "discription": "Score up to 80% off while these deals last."
+      },
+      {
+        "img": "https://assets.wfcdn.com/im/06437360/resize-h396-w792%5Ecompr-r85/1334/133439929/Open+Box.jpg",
+        "title": "Open Box",
+        "discription": "Save big on returned and like-new items."
+      }
+    ]
+  }
+}

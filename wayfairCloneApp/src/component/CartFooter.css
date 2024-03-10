@@ -1,0 +1,21 @@
+.CartFooter{
+    /* border: 2px solid red; */padding-top: 20px;
+    padding-bottom: 20px;
+}
+.CartFooter div{
+    /* border: 2px solid blue; */
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+.CartFooter div a{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.CartFooter div p{
+    font-size: 15px;
+}

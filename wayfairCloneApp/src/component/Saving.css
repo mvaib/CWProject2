@@ -1,0 +1,230 @@
+.navLink{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    gap: 7px;
+}
+.navLink a ,.navLink p{
+    font-size: 13px;
+    color: black;
+
+}
+.navLink a:hover{
+    color: rgb(123, 31, 166);
+    text-decoration: underline;
+}
+.savingImg{
+    /* border: 2px solid blue; */
+    width: 90%;
+    margin: auto;
+}
+.savingImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.CardCont{
+    /* border: 2px solid blue; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.subCardCont{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+.shopFurnitureImg{
+    padding: 7px;
+}
+.shopFurnitureImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.shopFurnitureImg:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.BuyingCard{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.buyingCardCont{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+.subBuyingCardCont{
+    /* border: 2px solid green; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+}
+.buyingCardCont img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.buyingCardTitle{
+    font-weight: 300;
+    font-size: 15px;
+}
+.subBuyingCardCont button{
+    border: none;
+    font-size: 15px;
+    background-color: rgb(116, 28, 157);
+    color: white;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subBuyingCardCont:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.shopSale{
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.shopSaleCont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.shopSaleImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.subShopSaleCont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 7px;
+}
+.shopSaleTitle{
+    font-size: 20px;
+    font-weight: 900;
+}
+.shopSaleDiscription{
+    font-size: 15px;
+    font-weight: 300;
+}
+.subShopSaleCont:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 900;
+}
+@media all and (max-width:1075px){
+    .buyingCardCont{
+        grid-template-columns: repeat(5,1fr);
+    }
+    .subCardCont{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .heading{
+        font-size: 25px;
+    }
+}
+@media all and (max-width:884px){
+    .buyingCardCont{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .CardCont{
+        width: 100%;
+    }
+    .subCardCont{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .savingImg img{
+        height: 80px;
+    }
+}
+@media all and (max-width:697px){
+    .buyingCardCont{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .CardCont{
+        width: 100%;
+    }
+    .shopByDepartmentCardCont{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .shopSaleCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .heading{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:425px){
+    .buyingCardCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .CardCont{
+        width: 100%;
+    }
+    .shopByDepartmentCardCont{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .subCardCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .shopSaleCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media all and (max-width:375px){
+    .shopByDepartmentCardCont{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .subCardCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .buyingCardCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .CardCont{
+        width: 100%;
+    }
+    .savingImg img{
+        height: 60px;
+    }
+    .shopSaleCont{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
